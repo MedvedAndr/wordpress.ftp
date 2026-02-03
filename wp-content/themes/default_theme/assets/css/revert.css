@@ -1,0 +1,20 @@
+.content {
+    p {
+        
+    }
+
+    a {
+        color               : revert;
+        text-decoration     : revert;
+
+        &:hover {
+            text-decoration : revert;
+        }
+    }
+
+    ul {
+        list-style          : revert;
+        margin              : revert;
+        padding             : revert;
+    }
+}
